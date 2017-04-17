@@ -1,3 +1,9 @@
+linuxmuster-ddns (0.3) babo; urgency=low
+
+  * Fixed access to config file
+
+ -- Frank Schiebel <frank@linuxmuster.net>  Mon, 17 Apr 2017 18:56:00 +0100
+
 linuxmuster-ddns (0.2) babo; urgency=low
 
   * Added logrotate config
