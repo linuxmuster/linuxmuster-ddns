@@ -1,0 +1,12 @@
+Source: linuxmuster-ddns
+Section: unknown
+Priority: extra
+Maintainer: Frank Schiebel <frank@linuxmuster.net>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://www.linuxmuster.net/
+
+Package: linuxmuster-ddns
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Updater script for member dyndns service of linuxmuster.net
