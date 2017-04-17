@@ -8,5 +8,5 @@ Homepage: http://www.linuxmuster.net/
 
 Package: linuxmuster-ddns
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl
 Description: Updater script for member dyndns service of linuxmuster.net

@@ -1,0 +1,2 @@
+# Crontab for linuxmuster-ddns
+*/10 * * * * root /usr/sbin/linuxmuster-ddns >> /var/log/linuxmuster-ddns.log 2>&1

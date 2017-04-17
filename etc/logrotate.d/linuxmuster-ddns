@@ -1,0 +1,7 @@
+/var/log/linuxmuster-ddns.log {
+        rotate 6
+        weekly
+        compress
+        missingok
+}
+~              

@@ -1,3 +1,12 @@
+linuxmuster-ddns (0.2) babo; urgency=low
+
+  * Added logrotate config
+  * Added cronjob
+  * First tested version
+  * Added curl dependency
+
+ -- Frank Schiebel <frank@linuxmuster.net>  Mon, 17 Apr 2017 18:10:00 +0100
+
 linuxmuster-ddns (0.1) babo; urgency=low
 
   * First version
