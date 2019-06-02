@@ -1,3 +1,9 @@
+linuxmuster-ddns (0.3.1) babo; urgency=low
+
+  * Changes reflecting new infrastructure
+
+ -- Frank Schiebel <frank@linuxmuster.net>  Sun, 02 Jun 2019 22:13:00 +0100
+
 linuxmuster-ddns (0.3) babo; urgency=low
 
   * Fixed access to config file

@@ -18,8 +18,8 @@ if [ "$REAL_IP" = "$DNS_IP" ]; then
   exit 0
 else
  echo "$TIMESTAMP linuxmuster-ddns UPDATE: $HOST has DNS-IP $DNS_IP but real-IP is $REAL_IP"
- #echo "Executing:  curl -q -k -v -G -d hostname=$HOST -d username=$USER -d password=$PASS  ${UPDATEURI} > /dev/null 2>&1"
- curl -q -k -v -G -d hostname=$HOST -d username=$USER -d password=$PASS  ${UPDATEURI} > /dev/null 2>&1
+ #echo "Executing:  curl -L -q -k -v -G -d hostname=$HOST -d username=$USER -d password=$PASS  ${UPDATEURI} > /dev/null 2>&1"
+ curl -L -q -k -v -G -d hostname=$HOST -d username=$USER -d password=$PASS  ${UPDATEURI} > /dev/null 2>&1
 fi
 
 
