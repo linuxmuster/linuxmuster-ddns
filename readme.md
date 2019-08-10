@@ -1,4 +1,6 @@
 linuxmuster-ddns
 ----------------
 
-Updater-script für den linuxmuster.net Dnydns Dienst fuer Vereinsmitglieder.
+Update Funktionen für den linuxmuster.net ynDNS-Dienst fuer Vereinsmitglieder.
+
+
